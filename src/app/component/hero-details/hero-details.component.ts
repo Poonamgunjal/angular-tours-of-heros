@@ -1,9 +1,6 @@
 import { Component, OnInit ,Input } from '@angular/core';
+import { Hero } from '../../hero';
 
-export class Hero {
-  id: number;
-  name: string;
-}
 @Component({
   selector: 'app-hero-details',
   templateUrl: './hero-details.component.html',
