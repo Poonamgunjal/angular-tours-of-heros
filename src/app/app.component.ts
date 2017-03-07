@@ -4,6 +4,7 @@ import { Hero } from './hero';
 import { HeroService } from './hero.service';
 
 @Component({
+  moduleId: module.id,
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
@@ -12,7 +13,7 @@ import { HeroService } from './hero.service';
 
 export class AppComponent {
   title = 'Tour of Heroes';
-  heroes: Hero[];
+ /* heroes: Hero[];
   selectedHero: Hero;
   constructor(private heroService: HeroService) { }
   getHeroes(): void {
@@ -23,7 +24,7 @@ export class AppComponent {
   }
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
-  }
+  }*/
 }
 
 
